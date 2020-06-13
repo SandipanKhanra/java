@@ -1,0 +1,23 @@
+package helloclass;
+
+class Person{
+    String name;
+    double height;   //This are called attributes || properties
+    int age;
+
+    public void setName(String name){ //This are called methods similar to functions but in OOPs they are called methods
+        this.name=name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+public class Myclass {
+    public static void main(String[] args) {
+        Person p= new Person();
+        p.setName("Mr. PC");
+        System.out.println(p.getName());
+    }
+}
