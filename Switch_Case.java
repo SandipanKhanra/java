@@ -10,12 +10,12 @@ public class Switch_Case {
         int a,b;
         boolean isTrue=false;
         while(isTrue!= true) {
-            System.out.println("Choose a option from below:\n");
-            System.out.println("\t1.Add 2 numbers\n");
-            System.out.println("\t2.Subtract 2 numbers\n");
-            System.out.println("\t3.Multiply 2 numbers\n");
-            System.out.println("\t4.Divide 2 numbers\n");
-            System.out.println("\t5.Exit\n");
+            System.out.println("Choose a option from below:" +
+                    "\n\t1.Add" +
+                    "\n\t2.Subtract" +
+                    "\n\t3.Multiply" +
+                    "\n\t4.Division" +
+                    "\n\t5.Exit");
             int x=sc.nextInt();
 
             switch(x) {
