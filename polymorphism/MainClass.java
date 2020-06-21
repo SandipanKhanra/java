@@ -1,4 +1,4 @@
-ackage Polymorphism;
+package Polymorphism;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -15,3 +15,5 @@ public class MainClass {
          * This is also known as Dynamic
          */
     }
+
+}
