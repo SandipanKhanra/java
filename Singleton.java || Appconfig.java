@@ -4,7 +4,7 @@ public class AppConfig {
     private AppConfig(){
 
     }
-    private static AppConfig obj;
+    private static AppConfig obj; //here we are not initialising the object...when needed it will be created else not
 
     /**
      * Java does not support multiple inheritence that is an object can't inherit from multiple
@@ -15,9 +15,10 @@ public class AppConfig {
      * @return
      */
     public static AppConfig getInstance(){
-        if(obj==null)
+        if(obj==null)    //Here we are checking whether the object is created or not...if not then we are initialising it
             obj= new AppConfig();
-        return obj;
+        return obj; //Here we are returning it....remember once the object is created it will not be created again and will
+        //return the same object
 
     }
 }
